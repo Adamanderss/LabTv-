@@ -24,6 +24,7 @@ namespace LabTvå
         public static string date;
         public static string comment;
         public static string totalInput;
+        string test;
 
         public MainWindow()
         {
