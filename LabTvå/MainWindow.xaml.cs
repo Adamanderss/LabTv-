@@ -32,7 +32,7 @@ namespace LabTvå
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            totalInput = "Namn: " + name + "\nDatum: " + date + "\nKommentar: " + comment;
+            totalInput = "Namn: " + name + "\nDatum:" + "\nKommentar:" + comment;
             listBox1.Items.Add(totalInput.ToString());
 
             this.nameInput.Clear();
