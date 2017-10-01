@@ -24,7 +24,6 @@ namespace LabTvå
         public static string date;
         public static string comment;
         public static string totalInput;
-        string test;
 
         public MainWindow()
         {
@@ -33,10 +32,10 @@ namespace LabTvå
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-                totalInput = "Namn: " + name + "\nDatum: " + date + "\nKommentar: " + comment;
-                listBox1.Items.Add(totalInput.ToString());
-         
-                this.nameInput.Clear();
+            totalInput = "Namn: " + name + "\nDatum: " + date + "\nKommentar: " + comment;
+            listBox1.Items.Add(totalInput.ToString());
+
+            this.nameInput.Clear();
                 this.dateInput.Clear();
                 this.commentInput.Clear();
                 this.nameInput.Focus(); 
